@@ -1,4 +1,4 @@
- //PF-receive-imp-01 - STIN-STOR-SLOR-SLHJ
+/*  //PF-receive-imp-01 - STIN-STOR-SLOR-SLHJ
 Instance: HospitalNotification_TestScript_PF-receive-imp-01
 InstanceOf: TestScript
 * insert Metadata
@@ -16,3 +16,4 @@ InstanceOf: TestScript
 * insert readMessage(SLOR, 03, destinationUri-SLOR, bundleid-SLOR)
 * insert readMessage(SLHJ, 04, destinationUri-SLHJ, bundleid-SLHJ)
 
+ */

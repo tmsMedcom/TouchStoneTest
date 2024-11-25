@@ -183,3 +183,9 @@ RuleSet: assertEncounterLeapYear
 * test[=].action[=].assert.operator = #notFound
 * test[=].action[=].assert.value = "{deceased}"
 * test[=].action[=].assert.warningOnly = false */
+
+RuleSet: assertAbatementDate
+* test[=].action[+].assert.description = "Confirm that the AbatementDate exists"
+* test[=].action[=].assert.direction = #request
+* test[=].action[=].assert.expression = "Bundle.entry.resource.ofType(Provenance).where(target.reference = %resource.entry[0].fullUrl).exists()"
+* test[=].action[=].assert.warningOnly = false

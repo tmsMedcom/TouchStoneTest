@@ -8,10 +8,10 @@ Both test scripts and test examples are developed by MedCom. For more informatio
 
 > Include relevant links. E.g:
 
-The following pages might be of interest when implementing HospitalNotification:
-* [GitHub-pages for HospitalNotification](https://medcomdk.github.io/dk-medcom-hospitalnotification)
-  * [Testprotocol for sending and receiving HospitalNotification](https://medcomdk.github.io/dk-medcom-hospitalnotification/#2-test-and-certification)
-* [Implementation Guide for HospitalNotification v. 3.0.0](https://medcomfhir.dk/ig/hospitalnotification/3.0.0)
+The following pages might be of interest when implementing ConditionList:
+* [GitHub-pages for Conditi](https://medcomdk.github.io/dk-medcom-conditionlist)
+  * [Testprotocol for sending and receiving ConditionList](https://medcomdk.github.io/dk-medcom-conditionlist/#2-test-and-certification)
+* [Implementation Guide for ConditionList v. 1.0.0](https://medcomfhir.dk/ig/ConditionList/3.0.0)
 * [Governance for MedCom FHIR messaging](https://medcomdk.github.io/MedComLandingPage/)
 
 ### Governance
@@ -24,7 +24,7 @@ Content in this IG can be downloaded under [Download](downloads.html). The downl
 
 > Describe the errors
 
-In the Quality Assurance report (QA-report) for this IG there are some errors and warnings. An instance of the errors are: *Unable to resolve resource with reference '/FHIRSandbox/MedCom/HospitalNotificationTMS/HospitalNotification-fixture-SLOR.xml* and *Unable to resolve resource with reference 'http://medcomfhir.dk/ig/hospitalnotification/StructureDefinition/medcom-hospitalNotification-message'*. The errors occur when creating a test script, as the fixture and profile are not reachable in the IG. However, they are reachable from TouchStone, why it is of less concern. For vendors who uses the test scripts locally should be aware of the error and e.g. create the fixtures and define the profile locally.
+In the Quality Assurance report (QA-report) for this IG there are some errors and warnings. An instance of the errors are: *Unable to resolve resource with reference '/FHIRSandbox/MedCom/ConditionListTMS/ConditionList-fixture-SLOR.xml* and *Unable to resolve resource with reference 'http://medcomfhir.dk/ig/ConditionList/StructureDefinition/medcom-conditionlist-message'*. The errors occur when creating a test script, as the fixture and profile are not reachable in the IG. However, they are reachable from TouchStone, why it is of less concern. For vendors who uses the test scripts locally should be aware of the error and e.g. create the fixtures and define the profile locally.
 
 #### Contact
 <a href="https://www.medcom.dk/">MedCom</a> is responsible for this IG.
